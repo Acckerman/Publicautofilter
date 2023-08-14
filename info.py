@@ -70,4 +70,4 @@ LAZY_MODE = bool(environ.get("false"))
 #Add user id of the user in this field those who you want to be Authentic user for file renaming features
 lazy_renamers = [int(lazrenamers) if id_pattern.search(lazrenamers) else lazrenamers for lazrenamers in environ.get('LAZY_RENAMERS', '5847678532').split()]
 LAZY_RENAMERS = (lazy_renamers + ADMINS) if lazy_renamers else []
-REQ_CHANNEL = int(environ.get('-1001973248518')
+REQ_CHANNEL = int(environ.get('-1001973248518')                
